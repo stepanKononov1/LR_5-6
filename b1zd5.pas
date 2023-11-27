@@ -21,8 +21,6 @@ begin
   if sum1 > sum2 then for i:integer:=0 to 19 do arr1[i]:=arr1[i]*10;
   if sum2 > sum1 then for i:integer:=0 to 19 do arr2[i]:=arr2[i]*10;
   writeln('Результаты: ');
-  writeln('Первый массив: ');
-  writeln(arr1);
-  writeln('Второй массив: ');
-  writeln(arr2);
+  if sum1 > sum2 then begin writeln('Изменён первый массив: '); writeln(arr1) end;
+  if sum2 > sum1 then begin writeln('Изменён второй массив: '); writeln(arr2) end;
 end.

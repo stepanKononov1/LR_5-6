@@ -1,5 +1,7 @@
 ﻿program b2zd9;
-var arr:Array of integer; first, min:integer;
+var 
+  arr:Array of integer;
+  first, min:integer;
 begin
   setlength(arr, 20);
   for i:integer:=0 to 19 do
